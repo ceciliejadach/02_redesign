@@ -1,7 +1,13 @@
-.grid_col {
+.grid_col1 {
   display: grid;
   gap: 10px;
   margin: 100px 10px 0px 10px;
+}
+
+.grid_col2 {
+  display: grid;
+  gap: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .grid_col_1 {
@@ -35,6 +41,7 @@ input,
 select,
 button {
   display: block;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 input {
@@ -65,6 +72,7 @@ input {
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 textarea {
@@ -77,8 +85,16 @@ textarea {
 }
 
 @media (min-width: 800px) {
-  .grid_col {
+  .grid_col1,
+  .grid_col2 {
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .grid_col_1 {
+    align-self: center;
+    justify-self: center;
   }
 
   input {
@@ -97,7 +113,11 @@ textarea {
     order: 1;
   }
 
-  .grid_col_1 {
-    margin: 0 50px;
+  .contact {
+    max-width: 400px;
+  }
+
+  .contact p {
+    line-height: 1.5rem;
   }
 }
