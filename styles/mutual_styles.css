@@ -21,6 +21,10 @@ h2 {
   font-family: woodland;
 }
 
+body {
+  background-color: #f6f5f3;
+}
+
 /* -----------HEADER----------- */
 
 .container {

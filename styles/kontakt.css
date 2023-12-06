@@ -5,12 +5,7 @@
 }
 
 .grid_col_1 {
-  background-color: #eee8de;
   padding: 20px;
-}
-
-.kontakt_img {
-  justify-self: center;
 }
 
 section {
@@ -21,7 +16,7 @@ section {
 form {
   padding: 2rem;
   margin-top: 1rem;
-  background: #6e6f51;
+  background: #5e503f;
   display: grid;
 }
 
@@ -58,7 +53,7 @@ input {
 }
 
 .send_btn {
-  background-color: #979871;
+  background-color: #8b7356;
   border: none;
   color: white;
   padding: 10px 25px;
@@ -83,7 +78,7 @@ textarea {
 
 @media (min-width: 800px) {
   .grid_col {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   input {
@@ -96,5 +91,13 @@ textarea {
     width: 600px;
     height: 100px;
     font-size: 1rem;
+  }
+
+  .order {
+    order: 1;
+  }
+
+  .grid_col_1 {
+    margin: 0 50px;
   }
 }
