@@ -1,16 +1,17 @@
-.grid_col {
+.grid_col1 {
   display: grid;
   gap: 10px;
   margin: 100px 10px 0px 10px;
 }
 
-.grid_col_1 {
-  background-color: #eee8de;
-  padding: 20px;
+.grid_col2 {
+  display: grid;
+  gap: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
-.kontakt_img {
-  justify-self: center;
+.grid_col_1 {
+  padding: 20px;
 }
 
 section {
@@ -21,7 +22,7 @@ section {
 form {
   padding: 2rem;
   margin-top: 1rem;
-  background: #6e6f51;
+  background: #5e503f;
   display: grid;
 }
 
@@ -40,6 +41,7 @@ input,
 select,
 button {
   display: block;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 input {
@@ -58,7 +60,7 @@ input {
 }
 
 .send_btn {
-  background-color: #979871;
+  background-color: #8b7356;
   border: none;
   color: white;
   padding: 10px 25px;
@@ -70,6 +72,7 @@ input {
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 textarea {
@@ -82,8 +85,16 @@ textarea {
 }
 
 @media (min-width: 800px) {
-  .grid_col {
-    grid-template-columns: repeat(3, 1fr);
+  .grid_col1,
+  .grid_col2 {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .grid_col_1 {
+    align-self: center;
+    justify-self: center;
   }
 
   input {
@@ -96,5 +107,17 @@ textarea {
     width: 600px;
     height: 100px;
     font-size: 1rem;
+  }
+
+  .order {
+    order: 1;
+  }
+
+  .contact {
+    max-width: 400px;
+  }
+
+  .contact p {
+    line-height: 1.5rem;
   }
 }
