@@ -4,20 +4,135 @@
   border: none;
   padding: 10px 25px;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
   justify-self: center;
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
+  justify-self: center;
+  width: fit-content;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-family: woodland;
 }
 
 /*FORSIDE TEKST*/
 .forsidetekst {
+  display: grid;
+}
+.forsidetekst h3 {
   margin-top: 100px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 30px;
+}
+
+h3 {
+  font-family: woodland;
+}
+
+/*BILLEDER*/
+.forside_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 10px;
+  margin-top: 80px;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-family: woodland;
+}
+
+.forside_hylde {
+  padding-right: 10px;
+  padding-bottom: 70px;
+}
+
+.forside_skabe {
+  padding-right: 10px;
+  padding-bottom: 70px;
+}
+
+.forside_toiletmoebel {
+  padding-right: 10px;
+  padding-bottom: 70px;
+}
+
+.forside_reoler {
+  padding-right: 10px;
+  padding-bottom: 70px;
+}
+
+.forside_baenke {
+  padding-right: 10px;
+  padding-bottom: 70px;
+}
+
+.forside_interior {
+  padding-right: 10px;
+  padding-bottom: 70px;
+}
+
+/*DESKTOP*/
+@media (min-width: 768px) {
+  /*FORSIDE TEKST*/
+  .forsidetekst h3 {
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 400px;
+    line-height: 30px;
+  }
+
+  /*BILLEDER*/
+  .forside_billeder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    margin-top: 80px;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-family: woodland;
+  }
+
+  .forside_hylde {
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+  .forside_skabe {
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+  .forside_toiletmoebel {
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+  .forside_reoler {
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+  .forside_baenke {
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+  .forside_interior {
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
 }
