@@ -22,6 +22,7 @@ h2 {
 }
 
 h3,
+h4,
 p,
 a {
   font-family: "Source Sans 3", sans-serif;
@@ -247,6 +248,7 @@ ul li a:hover {
   margin-top: 20px;
   background: #eee8de;
   cursor: pointer;
+  color: black;
 }
 
 @media (max-width: 800px) {
