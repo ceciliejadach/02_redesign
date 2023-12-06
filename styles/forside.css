@@ -1,0 +1,23 @@
+/*FORSIDE KNAP*/
+.forside_knap {
+  background-color: #5e503f;
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  justify-self: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*FORSIDE TEKST*/
+.forsidetekst {
+  margin-top: 100px;
+}
