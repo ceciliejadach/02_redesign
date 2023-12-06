@@ -1,11 +1,15 @@
 .grid_col1 {
   display: grid;
   gap: 10px;
-  margin: 100px 10px 0px 10px;
+  margin: 100px 10px 30px 10px;
 }
 
 .grid_col_1 {
   padding: 20px;
+}
+
+.contact p {
+  line-height: 1.5rem;
 }
 
 @media (min-width: 800px) {
@@ -27,9 +31,5 @@
 
   .contact {
     max-width: 600px;
-  }
-
-  .contact p {
-    line-height: 1.5rem;
   }
 }
