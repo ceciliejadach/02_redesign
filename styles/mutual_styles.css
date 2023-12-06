@@ -21,7 +21,8 @@ h2 {
   font-family: woodland;
 }
 
-p {
+p,
+a {
   font-family: "Source Sans 3", sans-serif;
 }
 
