@@ -29,7 +29,7 @@
                 <a href="kontakt.html">Kontakt</a>
             </nav>
             <button class="hamburger">
-                <div class="bar"></div>
+                <span class="bar"></span>
             </button>
         </div>
     </header>
@@ -65,26 +65,23 @@
             </div>
             <div class="kontakt_img"><img src="imgwebp/baenke.webp" alt="showroom"></div>
         </div>
-        </div>
     </main>
     <section>
-        <form name="kontakt" action="tak.html" netlify>
+        <form name="kontakt" action="tak.html" data-netlify="true">
             <!-- Formular-indhold -->
             <p>
                 Udfyld formularen og jeg vender tilbage til dig hurtigst muligt.
             </p>
             <div class="form-felt">
-                <label for="navn">Fornavn
-                    <input placeholder="Fornavn" type="text" name="fnavn" required />
-                </label>
-
+                <label for="fnavn">Fornavn </label>
+                <input placeholder="Fornavn" type="text" id="fnavn" name="fnavn" required />
             </div>
 
             <div class="form-felt">
-                <label for="navn">Efternavn
-                    <input placeholder="Efternavn" type="text" name="enavn" required />
-                </label>
+                <label for="enavn">Efternavn</label>
+                <input placeholder="Efternavn" type="text" id="enavn" name="enavn" required />
             </div>
+
             <div class="form-felt">
                 <label>
                     E-mail
@@ -97,7 +94,7 @@
                     <textarea placeholder="Skriv din besked her" name="besked" rows="5"></textarea>
                 </label>
             </div>
-            <a class="send_btn" type="submit">Send</a>
+            <button class="send_btn" type="submit">Send</button>
         </form>
     </section>
     <footer>
