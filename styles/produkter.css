@@ -1,15 +1,8 @@
 /*produkter*/
-
-h1 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-}
-
 .forside_billeder {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
@@ -20,21 +13,34 @@ h1 {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 1%;
-  margin-bottom: 3%;
+  margin-bottom: 10%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.overskrifter {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .forside_hylde {
-  padding-right: 30px;
+  padding-right: 20px;
   padding-bottom: 70px;
 }
 
 .forside_skabe {
-  padding-right: 30px;
+  padding-right: 20px;
   padding-bottom: 70px;
 }
 
 .forside_toiletmoebel {
-  padding-right: 30px;
+  padding-right: 20px;
   padding-bottom: 70px;
 }
 
@@ -44,66 +50,18 @@ h1 {
 }
 
 .forside_baenke {
-  padding-right: 30px;
+  padding-right: 20px;
   padding-bottom: 70px;
 }
 
 .forside_interior {
-  padding-right: 30px;
+  padding-right: 20px;
   padding-bottom: 70px;
-}
-
-.overskrifter {
-  text-align: center;
-  padding-top: 20px;
-  font-family: woodland;
 }
 
 a {
   text-decoration: none;
   color: black;
-}
-
-/*interior side*/
-.interior_billeder {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin-left: 30%;
-  margin-right: 10%;
-  margin-top: 20px;
-}
-
-.interior {
-  padding-right: 30px;
-  padding-bottom: 70px;
-}
-
-.nav_interior1 {
-  position: absolute;
-  margin-top: 14%;
-  margin-left: 10%;
-}
-
-h3 {
-  margin-bottom: 50%;
-}
-
-.h1_interior {
-  margin-left: 20%;
-}
-
-.tekst_interior {
-  text-align: center;
-  margin-left: 28%;
-  margin-right: 10%;
-  margin-top: 1%;
-  margin-bottom: 3%;
-}
-
-.overskrifter_interior {
-  padding-top: 20px;
-  font-family: "Source Sans 3", sans-serif;
 }
 
 ul li {
@@ -117,4 +75,185 @@ li a:hover {
 
 .forside_interior a:hover {
   color: #696868;
+}
+
+/*interior*/
+.interior_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+.interior {
+  padding-right: 30px;
+  padding-bottom: 70px;
+}
+
+.navbar_nav {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin-bottom: 5%;
+  margin-left: 40%;
+}
+
+h1 {
+  margin-bottom: 2%;
+}
+
+.tekst_interior {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+.overskrifter_interior {
+  padding-top: 20px;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 22px;
+  padding: 1%;
+}
+
+li a:hover {
+  color: #696868;
+}
+
+.forside_interior a:hover {
+  color: #696868;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .forside_billeder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+
+  .tekst_produkter {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+
+  .forside_hylde {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .forside_skabe {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .forside_toiletmoebel {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .forside_reoler {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .forside_baenke {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .forside_interior {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .overskrifter {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  /*interior side*/
+  .interior_billeder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+
+  .interior {
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+  .nav_interior1 {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 10%;
+  }
+
+  .navbar_nav {
+    display: block;
+  }
+
+  h3 {
+    margin-bottom: 50%;
+    margin-left: 0%;
+  }
+
+  .h1_interior {
+    margin-left: 20%;
+  }
+
+  .tekst_interior {
+    text-align: center;
+    margin-left: 28%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+
+  .overskrifter_interior {
+    padding-top: 20px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  ul li {
+    list-style: none;
+    margin-bottom: 22px;
+  }
+
+  li a:hover {
+    color: #696868;
+  }
+
+  .forside_interior a:hover {
+    color: #696868;
+  }
 }
