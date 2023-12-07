@@ -13,7 +13,8 @@ img {
 
 @font-face {
   font-family: woodland;
-  src: url("../fonts/ppwoodland-bold-webfont.woff"), url("../fonts/ppwoodland-bold-webfont.woff2");
+  src: url("../fonts/ppwoodland-bold-webfont.woff"),
+    url("../fonts/ppwoodland-bold-webfont.woff2");
 }
 
 h1,
@@ -33,6 +34,13 @@ body {
 }
 
 /* -----------HEADER----------- */
+
+.logo1 {
+  width: 40%;
+  background-size: cover;
+  margin-top: 5%;
+  margin-left: 0%;
+}
 
 .container {
   width: 100%;
@@ -134,15 +142,14 @@ body {
 }
 
 header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99;
 
   .container {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,6 +166,7 @@ header {
 
 nav {
   display: grid;
+  padding-top: 1%;
   grid-gap: 120px;
   grid-template-columns: repeat(4, auto);
 
@@ -174,6 +182,12 @@ nav {
 }
 
 /* -----------FOOTER----------- */
+
+.logo2 {
+  width: 40%;
+  background-size: cover;
+  margin-bottom: 5%;
+}
 
 footer {
   width: 100%;
