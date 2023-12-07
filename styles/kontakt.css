@@ -63,7 +63,7 @@ input {
   background-color: #8b7356;
   border: none;
   color: white;
-  padding: 10px 25px;
+  padding: 8px 23px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -73,6 +73,12 @@ input {
   margin-top: 20px;
   cursor: pointer;
   font-family: "Source Sans 3", sans-serif;
+}
+
+.send_btn:hover {
+  background-color: #f6f5f3;
+  color: #554838;
+  transition: 0.4s;
 }
 
 textarea {
