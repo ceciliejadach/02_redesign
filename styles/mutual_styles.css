@@ -13,8 +13,7 @@ img {
 
 @font-face {
   font-family: woodland;
-  src: url("../fonts/ppwoodland-bold-webfont.woff"),
-    url("../fonts/ppwoodland-bold-webfont.woff2");
+  src: url("../fonts/ppwoodland-bold-webfont.woff"), url("../fonts/ppwoodland-bold-webfont.woff2");
 }
 
 h1,
@@ -47,7 +46,7 @@ body {
   max-width: 2000px;
   margin: 0 auto;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 115px;
 
   @media (max-width: 1024px) {
     padding-left: 64px;
