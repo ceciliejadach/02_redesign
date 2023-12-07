@@ -1,39 +1,44 @@
 /*FORSIDE KNAP*/
-.forside_knap {
+.forside_knap a {
   background-color: #5e503f;
   border: none;
   padding: 10px 25px;
   text-align: center;
   font-size: 16px;
-  justify-self: center;
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
   justify-self: center;
   width: fit-content;
+  color: blue;
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 a {
+  display: flex;
   text-decoration: none;
-  color: white;
-  font-family: woodland;
+  color: black;
+  font-family: "Source Sans 3", sans-serif;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: #696868;
 }
 
 /*FORSIDE TEKST*/
 .forsidetekst {
   display: grid;
 }
-.forsidetekst h3 {
-  margin-top: 100px;
+/* .forsidetekst h3 {
+  /* margin-top: 100px;
   text-align: left;
   padding-left: 30px;
   padding-right: 30px;
-  line-height: 30px;
-}
-
-h3 {
-  font-family: woodland;
-}
+  line-height: 30px; 
+} */
 
 /*BILLEDER*/
 .forside_billeder {
