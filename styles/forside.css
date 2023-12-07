@@ -1,38 +1,55 @@
 /*FORSIDE KNAP*/
-.forside_knap {
+.forsideknap {
   background-color: #5e503f;
   border: none;
   padding: 10px 25px;
   text-align: center;
   font-size: 16px;
-  justify-self: center;
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
   justify-self: center;
   width: fit-content;
+  color: white;
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
 }
 
-a {
+.kategori {
+  display: flex;
   text-decoration: none;
-  color: white;
-  font-family: woodland;
+  color: black;
+  font-family: "Source Sans 3", sans-serif;
+  justify-content: center;
+}
+
+.kategori:hover {
+  color: #696868;
 }
 
 /*FORSIDE TEKST*/
-.forsidetekst {
+.hero {
   display: grid;
 }
-.forsidetekst h3 {
-  margin-top: 100px;
-  text-align: left;
-  padding-left: 30px;
-  padding-right: 30px;
-  line-height: 30px;
+
+.forsidetekst {
+  justify-self: center;
+  max-width: 600px;
 }
 
-h3 {
-  font-family: woodland;
+.forsidetekst p {
+  text-align: left;
+}
+
+.btn {
+  margin-top: 50px;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.kategori-h2 {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /*BILLEDER*/
@@ -45,9 +62,8 @@ h3 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
-  font-family: woodland;
 }
 
 .forside_hylde {
@@ -86,8 +102,8 @@ p {
   .forsidetekst h3 {
     margin-top: 100px;
     text-align: left;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
     line-height: 30px;
   }
 
@@ -103,7 +119,6 @@ p {
   p {
     text-align: center;
     padding-top: 20px;
-    font-family: woodland;
   }
 
   .forside_hylde {
@@ -134,5 +149,10 @@ p {
   .forside_interior {
     padding-right: 10px;
     padding-bottom: 70px;
+  }
+
+  main {
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
