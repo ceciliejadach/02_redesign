@@ -1,5 +1,5 @@
 /*FORSIDE KNAP*/
-.forside_knap a {
+.forsideknap {
   background-color: #5e503f;
   border: none;
   padding: 10px 25px;
@@ -10,35 +10,47 @@
   cursor: pointer;
   justify-self: center;
   width: fit-content;
-  color: blue;
+  color: white;
   text-decoration: none;
   font-family: "Source Sans 3", sans-serif;
 }
 
-a {
+.kategori {
   display: flex;
   text-decoration: none;
   color: black;
   font-family: "Source Sans 3", sans-serif;
   justify-content: center;
-  margin-top: 20px;
 }
 
-a:hover {
+.kategori:hover {
   color: #696868;
 }
 
 /*FORSIDE TEKST*/
-.forsidetekst {
+.hero {
   display: grid;
 }
-/* .forsidetekst h3 {
-  /* margin-top: 100px;
+
+.forsidetekst {
+  justify-self: center;
+  max-width: 600px;
+}
+
+.forsidetekst p {
   text-align: left;
-  padding-left: 30px;
-  padding-right: 30px;
-  line-height: 30px; 
-} */
+}
+
+.btn {
+  margin-top: 50px;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.kategori-h2 {
+  text-align: center;
+  margin-top: 20px;
+}
 
 /*BILLEDER*/
 .forside_billeder {
@@ -50,9 +62,8 @@ a:hover {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
-  font-family: woodland;
 }
 
 .forside_hylde {
@@ -108,7 +119,6 @@ p {
   p {
     text-align: center;
     padding-top: 20px;
-    font-family: woodland;
   }
 
   .forside_hylde {
