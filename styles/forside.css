@@ -91,8 +91,8 @@ p {
   .forsidetekst h3 {
     margin-top: 100px;
     text-align: left;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
     line-height: 30px;
   }
 
@@ -139,5 +139,10 @@ p {
   .forside_interior {
     padding-right: 10px;
     padding-bottom: 70px;
+  }
+
+  main {
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
