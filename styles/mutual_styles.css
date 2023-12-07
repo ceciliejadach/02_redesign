@@ -32,6 +32,13 @@ body {
   background-color: #f6f5f3;
 }
 
+@media (min-width: 800px) {
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 /* -----------HEADER----------- */
 
 .logo1 {
