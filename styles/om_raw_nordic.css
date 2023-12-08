@@ -1,0 +1,29 @@
+.om_overskrift {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.grid_col01 {
+  display: grid;
+  gap: 10px;
+  margin: 10px 10px 0px 10px;
+  padding: 20px;
+}
+
+.information {
+  line-height: 25px;
+  margin: 10px 10px 0px 10px;
+}
+
+.behandling img {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .behandling {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+} */
