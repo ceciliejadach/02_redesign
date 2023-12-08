@@ -9,12 +9,19 @@
     <link rel="stylesheet" href="styles/mutual_styles.css">
     <link rel="stylesheet" href="styles/kontakt.css">
     <script src="https://kit.fontawesome.com/402d54e454.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2>Raw Nordic Design</h2>
+            <a href="forside.html">
+                <img class="logo1" src="imgwebp/logo.svg" alt="logo">
+            </a>
             <nav>
                 <a href="om_raw_nordic.html">Om Raw Nordic Design</a>
                 <a href="produkter.html">Produkter</a>
@@ -22,7 +29,7 @@
                 <a href="kontakt.html">Kontakt</a>
             </nav>
             <button class="hamburger">
-                <div class="bar"></div>
+                <span class="bar"></span>
             </button>
         </div>
     </header>
@@ -33,65 +40,69 @@
         <a href="kontakt.html">Kontakt</a>
     </nav>
     <main>
-        <div class="grid_col">
+        <div class="grid_col1">
             <div class="grid_col_1">
-                <h2>Kontakt mig</h2><br>
-                <p>Hvis du har brug for mere information, har spørgsmål
-                    eller gerne vil vide mere om mine produkter, kan du altid kontakte mig via telefon, e-mail eller ved
-                    at udfylde formularen forneden.</p><br>
-                <p>Jeg vil vende tilbage til dig så hurtigt som muligt.</p><br>
-                <p>Tlf.: +45 23 70 22 28</p><br>
-                <p>E-mail: b.michelsen@live.dk</p><br>
-                <p>CVR. nr.: 37259993</p>
+                <div class="contact">
+                    <h2>Kontakt mig</h2><br>
+                    <p>Hvis du har brug for mere information, har spørgsmål
+                        eller gerne vil vide mere om mine produkter, kan du altid kontakte mig via telefon, e-mail eller
+                        ved at udfylde formularen forneden.</p><br>
+                    <p>Jeg vil vende tilbage til dig så hurtigt som muligt.</p><br>
+                    <p>Tlf.: +45 23 70 22 28</p><br>
+                    <p>E-mail: b.michelsen@live.dk</p><br>
+                    <p>CVR. nr.: 37259993</p>
+                </div>
             </div>
-            <div class="kontakt_img"><img src="img/portrait.jpeg" alt="portræt"></div>
-            <div class="grid_col_1">
+            <div class="kontakt_img'"><img src="imgwebp/farvebirgitte.webp" alt="portræt"></div>
+        </div>
+        <div class="grid_col2">
+            <div class="grid_col_1 order">
                 <h2>Besøg min butik/showroom</h2><br>
                 <p>Kom of besøg mig i min butik og se produkterne helt tæt på.</p><br>
                 <p>Raw Nordic Design</p><br>
                 <p>Dyssegårdsvej 6</p>
                 <p>3660 Stenløse</p>
             </div>
+            <div class="kontakt_img"><img src="imgwebp/baenke.webp" alt="showroom"></div>
         </div>
-        <section>
-            <form name="kontakt" action="tak.html" netlify>
-                <!-- Formular-indhold -->
-                <p>
-                    Udfyld formularen og jeg vender tilbage til dig hurtigst muligt.
-                </p>
-                <div class="form-felt">
-                    <label for="navn">Fornavn
-                        <input placeholder="Fornavn" type="text" name="fnavn" required />
-                    </label>
-
-                </div>
-
-                <div class="form-felt">
-                    <label for="navn">Efternavn
-                        <input placeholder="Efternavn" type="text" name="enavn" required />
-                    </label>
-                </div>
-                <div class="form-felt">
-                    <label>
-                        E-mail
-                        <input placeholder="E-mail" type="email" name="email" required>
-                    </label>
-                </div>
-
-                <div class="form-felt"> <label>
-                        Besked (valgfri)
-                        <textarea placeholder="Skriv din besked her" name="besked" rows="5"></textarea>
-                    </label>
-                </div>
-                <a class="send_btn" type="submit">Send</a>
-            </form>
-        </section>
     </main>
+    <section>
+        <form name="kontakt" action="tak.html" data-netlify="true">
+            <!-- Formular-indhold -->
+            <p>
+                Udfyld formularen og jeg vender tilbage til dig hurtigst muligt.
+            </p>
+            <div class="form-felt">
+                <label for="fnavn">Fornavn </label>
+                <input placeholder="Fornavn" type="text" id="fnavn" name="fnavn" required />
+            </div>
+
+            <div class="form-felt">
+                <label for="enavn">Efternavn</label>
+                <input placeholder="Efternavn" type="text" id="enavn" name="enavn" required />
+            </div>
+
+            <div class="form-felt">
+                <label>
+                    E-mail
+                    <input placeholder="E-mail" type="email" name="email" required>
+                </label>
+            </div>
+
+            <div class="form-felt"> <label>
+                    Besked (valgfri)
+                    <textarea placeholder="Skriv din besked her" name="besked" rows="5"></textarea>
+                </label>
+            </div>
+            <button class="send_btn" type="submit">Send</button>
+        </form>
+    </section>
     <footer>
         <div class="row">
             <div class="col">
-                <img src="#" alt="logo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis mollitia doloremque, saepe quo quam
+                <img class="logo2" src="imgwebp/logo.svg" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis mollitia doloremque, saepe quo
+                    quam
                     molestiae! Molestias repudiandae eius debitis molestiae nesciunt voluptatum dignissimos, commodi
                     aperiam assumenda fugiat. Harum, laborum ab.</p>
             </div>
@@ -117,10 +128,14 @@
             <div class="col">
                 <h3>Kontakt</h3>
                 <p class="email-id">b.michelsen@gmail.com</p>
-                <h4>+45 12 34 56 78</h4>
+                <h4>+45 23 70 22 28</h4>
                 <div class="social-icons">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <a href="https://www.instagram.com/rawnordicdesign/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/search/top?q=raw%20nordic%20design">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,55 @@
+.grid_col1 {
+  display: grid;
+  gap: 10px;
+  margin: 10px 10px 30px 10px;
+}
+
+.grid_col_1 {
+  padding: 20px;
+}
+
+.contact p {
+  line-height: 1.5rem;
+}
+
+/*  Rollover image styles  */
+.figure {
+  position: relative;
+  max-width: 100%;
+}
+
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.figure:hover img.image-hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .grid_col1,
+  .grid_col2 {
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 50px;
+  }
+
+  .grid_col_1 {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .order {
+    order: 1;
+  }
+
+  .contact {
+    max-width: 650px;
+  }
+}

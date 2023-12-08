@@ -21,14 +21,39 @@ h2 {
   font-family: woodland;
 }
 
+h3,
+h4,
+p,
+a {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+  background-color: #f6f5f3;
+}
+
+@media (min-width: 800px) {
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 /* -----------HEADER----------- */
+
+.logo1 {
+  width: 40%;
+  background-size: cover;
+  margin-top: 5%;
+  margin-left: 0%;
+}
 
 .container {
   width: 100%;
   max-width: 2000px;
   margin: 0 auto;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 115px;
 
   @media (max-width: 1024px) {
     padding-left: 64px;
@@ -123,15 +148,14 @@ h2 {
 }
 
 header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99;
 
   .container {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,7 +172,8 @@ header {
 
 nav {
   display: grid;
-  grid-gap: 16px;
+  padding-top: 1%;
+  grid-gap: 120px;
   grid-template-columns: repeat(4, auto);
 
   @media (max-width: 767px) {
@@ -164,12 +189,18 @@ nav {
 
 /* -----------FOOTER----------- */
 
+.logo2 {
+  width: 40%;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
 footer {
   width: 100%;
   position: absolute;
   background-color: #bba794;
   color: black;
-  padding: 100px 0 30px;
+  padding: 50px 0 30px;
   font-size: 13px;
   line-height: 20px;
 }
@@ -218,6 +249,12 @@ ul li {
 ul li a {
   text-decoration: none;
   color: black;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+ul li a:hover {
+  padding: 8px;
+  transition: 0.3s;
 }
 
 .social-icons .fa-brands {
@@ -231,4 +268,30 @@ ul li a {
   margin-top: 20px;
   background: #eee8de;
   cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  footer {
+    bottom: unset;
+  }
+
+  .col {
+    flex-basis: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .col:nth-child(2),
+  .col:nth-child(3) {
+    flex-basis: 100%;
+  }
+
+  .col h3 {
+    margin-bottom: 10px;
+  }
+
+  ul li {
+    margin-bottom: 5px;
+  }
 }
