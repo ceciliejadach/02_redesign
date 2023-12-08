@@ -34,15 +34,15 @@
 }
 
 @media (min-width: 800px) {
-  .grid_col1,
-  .grid_col2 {
+  .grid_col1 {
     grid-template-columns: repeat(2, 1fr);
-    margin-right: 50px;
+    margin: 70px 0 100px 0;
   }
 
   .grid_col_1 {
     align-self: center;
     justify-self: center;
+    padding: 0;
   }
 
   .order {
@@ -50,6 +50,6 @@
   }
 
   .contact {
-    max-width: 650px;
+    max-width: 600px;
   }
 }
