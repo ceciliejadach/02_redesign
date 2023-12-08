@@ -64,9 +64,10 @@ a {
   color: black;
 }
 
-ul li {
+.li_interior {
   list-style: none;
   margin-bottom: 22px;
+  padding: 1%;
 }
 
 li a:hover {
@@ -97,7 +98,7 @@ li a:hover {
   justify-content: center;
 }
 
-h3 {
+.interior_h3 {
   margin-bottom: 5%;
   margin-left: 40%;
 }
@@ -119,7 +120,7 @@ h1 {
   font-family: "Source Sans 3", sans-serif;
 }
 
-ul li {
+.li_interior {
   list-style: none;
   margin-bottom: 22px;
   padding: 1%;
@@ -222,7 +223,7 @@ li a:hover {
     display: block;
   }
 
-  h3 {
+  .interior_h3 {
     margin-bottom: 50%;
     margin-left: 0%;
   }
@@ -260,14 +261,26 @@ li a:hover {
   #button {
     display: flex;
     align-items: center;
+    border: 1em;
+    border: none;
+    outline: none;
   }
 
   #button a {
-    background-color: #696868;
+    background-color: #8b7356;
+    color: #fffdfd;
     padding: 1em 2em;
     text-decoration: none;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    font-size: 10px;
   }
   section {
-    margin-top: 5%;
+    margin-top: 2%;
+  }
+
+  hr {
+    display: none;
   }
 }
