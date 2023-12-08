@@ -10,6 +10,10 @@
   padding: 20px;
 }
 
+.grid_col01 p {
+  margin-bottom: 20px;
+}
+
 .information {
   line-height: 25px;
   margin: 10px 10px 0px 10px;
@@ -17,13 +21,35 @@
 
 .behandling img {
   width: 40%;
+  margin-top: 20px;
+}
+
+.behandling {
+  padding: 20px;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.tree_1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-/* .behandling {
+.tree_2 {
   display: flex;
   flex-direction: column;
-  align-content: center;
-} */
+  justify-content: center;
+  align-items: center;
+}
+
+.tree_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
