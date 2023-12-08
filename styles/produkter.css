@@ -245,11 +245,6 @@ li a:hover {
     font-family: "Source Sans 3", sans-serif;
   }
 
-  ul li {
-    list-style: none;
-    margin-bottom: 22px;
-  }
-
   li a:hover {
     color: #696868;
   }
