@@ -89,7 +89,7 @@ textarea {
   .grid_col1,
   .grid_col2 {
     grid-template-columns: repeat(2, 1fr);
-    margin: 0;
+    margin: 100px 0px 100px 0px;
   }
 
   .grid_col_1 {
