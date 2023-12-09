@@ -134,6 +134,20 @@ li a:hover {
   color: #696868;
 }
 
+#button a {
+  background-color: #8b7356;
+  color: #fffdfd;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  font-size: 10px;
+}
+section {
+  margin-top: 10%;
+}
+
 @media (min-width: 800px) {
   h1 {
     display: flex;
