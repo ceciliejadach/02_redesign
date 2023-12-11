@@ -13,7 +13,7 @@
 }
 
 /*  Rollover image styles  */
-.figure {
+/* .figure {
   position: relative;
   max-width: 100%;
 }
@@ -31,7 +31,7 @@
 .figure:hover img.image-hover {
   opacity: 1;
   cursor: pointer;
-}
+} */
 
 @media (min-width: 800px) {
   .grid_col1 {
