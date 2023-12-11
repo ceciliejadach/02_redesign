@@ -1,6 +1,7 @@
 .om_overskrift {
   font-size: 25px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-left: 25px;
 }
 
 .grid_col01 {
@@ -55,6 +56,9 @@
   .grid_col01 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    margin: 10px 0 40px 0;
+    padding: 0;
   }
 
   .birgitte_order {
@@ -71,10 +75,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    background: rgb(246, 245, 243);
-    background: linear-gradient(273deg, rgba(246, 245, 243, 1) 47%, rgba(224, 212, 193, 1) 82%);
+    /* background: rgb(246, 245, 243);
+    background: linear-gradient(273deg, rgba(246, 245, 243, 1) 47%, rgba(224, 212, 193, 1) 82%); */
     border-radius: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
+    margin-top: 80px;
   }
 
   .behandling img {
@@ -85,8 +90,8 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    background: rgb(246, 245, 243);
-    background: linear-gradient(90deg, rgba(246, 245, 243, 1) 47%, rgba(224, 212, 193, 1) 83%);
+    /* background: rgb(246, 245, 243);
+    background: linear-gradient(90deg, rgba(246, 245, 243, 1) 47%, rgba(224, 212, 193, 1) 83%); */
     border-radius: 150px;
   }
 
@@ -94,5 +99,9 @@
     order: 2;
     margin-left: 30%;
     margin-bottom: 10px;
+  }
+
+  .om_overskrift {
+    margin-left: 0;
   }
 }
