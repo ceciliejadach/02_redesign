@@ -20,7 +20,6 @@ h1 {
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  font-size: 25px;
 }
 
 .overskrifter {
@@ -102,10 +101,10 @@ li a:hover {
   margin-bottom: 5%;
   margin-left: 40%;
 }
-
+/* 
 h1 {
   margin-bottom: 2%;
-}
+} */
 
 .tekst_interior {
   text-align: center;
@@ -144,6 +143,13 @@ li a:hover {
   outline: none;
   font-size: 10px;
 }
+
+#button a:hover {
+  background-color: #554838;
+  color: white;
+  transition: 0.4s;
+}
+
 section {
   margin-top: 10%;
 }
@@ -173,32 +179,38 @@ section {
   }
 
   .forside_hylde {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 70px;
   }
 
   .forside_skabe {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 70px;
   }
 
   .forside_toiletmoebel {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 70px;
   }
 
   .forside_reoler {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 70px;
   }
 
   .forside_baenke {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 70px;
   }
 
   .forside_interior {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 70px;
   }
 
@@ -275,6 +287,12 @@ section {
     outline: none;
   }
 
+  #button a:hover {
+    background-color: #554838;
+    color: white;
+    transition: 0.4s;
+  }
+
   #button a {
     background-color: #8b7356;
     color: #fffdfd;
@@ -284,6 +302,7 @@ section {
     border: none;
     outline: none;
     font-size: 10px;
+    margin-top: 1%;
   }
   section {
     margin-top: 2%;
