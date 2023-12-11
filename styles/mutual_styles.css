@@ -16,8 +16,13 @@ img {
   src: url("../fonts/ppwoodland-bold-webfont.woff"), url("../fonts/ppwoodland-bold-webfont.woff2");
 }
 
-h1,
+h1 {
+  font-size: 1.5rem;
+  font-family: woodland;
+}
+
 h2 {
+  font-size: 1.125;
   font-family: woodland;
 }
 
@@ -36,6 +41,14 @@ body {
   main {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  h1 {
+    font-size: 2.125rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
   }
 }
 
