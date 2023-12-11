@@ -22,8 +22,9 @@ form {
 }
 
 form p {
-  justify-self: center;
   color: white;
+  max-width: 600px;
+  justify-self: center;
 }
 
 label {
