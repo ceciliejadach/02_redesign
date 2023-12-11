@@ -1,3 +1,17 @@
+/*video*/
+.video_2 {
+  width: 100%;
+  display: block;
+  height: 100%;
+  aspect-ratio: 1/1;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.video_1 {
+  display: none;
+}
+
 /*FORSIDE KNAP*/
 .forsideknap {
   background-color: #5e503f;
@@ -61,6 +75,8 @@
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 p {
@@ -122,6 +138,19 @@ p {
 
 /*DESKTOP*/
 @media (min-width: 768px) {
+  .video_1 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .video_2 {
+    display: none;
+  }
+
   /*FORSIDE TEKST*/
   .forsidetekst h3 {
     margin-top: 100px;
