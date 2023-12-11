@@ -13,7 +13,8 @@ img {
 
 @font-face {
   font-family: woodland;
-  src: url("../fonts/ppwoodland-bold-webfont.woff"), url("../fonts/ppwoodland-bold-webfont.woff2");
+  src: url("../fonts/ppwoodland-bold-webfont.woff"),
+    url("../fonts/ppwoodland-bold-webfont.woff2");
 }
 
 h1,
@@ -76,7 +77,6 @@ body {
   background: none;
   outline: none;
   border: none;
-  z-index: 100;
 }
 
 .hamburger .bar,
