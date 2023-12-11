@@ -13,6 +13,20 @@
   display: none;
 }
 
+.video_container {
+  z-index: 0;
+}
+
+.video_container h1 {
+  z-index: 10;
+  position: absolute;
+}
+
+.video_skrift h1 {
+  display: flex;
+  position: absolute;
+}
+
 /*FORSIDE KNAP*/
 .forsideknap {
   background-color: #8b7356;
@@ -74,10 +88,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 20px 10px 50px 10px;
 }
 
 p {
@@ -170,8 +181,10 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+  }
+
+  .billede {
+    padding-bottom: 50px;
   }
 
   p {
@@ -179,8 +192,7 @@ p {
     padding-top: 20px;
   }
 
-  main {
-    margin-right: 10%;
-    margin-left: 10%;
+  .kategori {
+    padding-top: 20px;
   }
 }
