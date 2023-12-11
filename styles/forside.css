@@ -6,6 +6,7 @@
   aspect-ratio: 1/1;
   margin-left: 0px;
   margin-right: 0px;
+  background-color: white;
 }
 
 .video_1 {
@@ -14,7 +15,7 @@
 
 /*FORSIDE KNAP*/
 .forsideknap {
-  background-color: #5e503f;
+  background-color: #8b7356;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -63,7 +64,7 @@
   margin-bottom: 20px;
 }
 
-.kategori-h2 {
+.kategori-h1 {
   text-align: center;
   margin-top: 20px;
 }
@@ -140,15 +141,19 @@ p {
 @media (min-width: 768px) {
   .video_1 {
     width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    height: 75%;
+    margin-top: 40px;
     display: block;
   }
 
   .video_2 {
     display: none;
+  }
+
+  /*LINJE*/
+  hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   /*FORSIDE TEKST*/
