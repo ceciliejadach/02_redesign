@@ -229,7 +229,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-left: 30%;
+    margin-left: 15%;
     margin-right: 0%;
     margin-top: 20px;
   }
@@ -241,8 +241,7 @@ section {
 
   .nav_interior1 {
     position: absolute;
-    margin-top: 14%;
-    margin-left: 5%;
+    margin-top: 12%;
   }
 
   .navbar_nav {
@@ -255,12 +254,11 @@ section {
   }
 
   .h1_interior {
-    margin-left: 28%;
+    margin-left: 12%;
   }
 
   .tekst_interior {
-    text-align: center;
-    margin-left: 35%;
+    margin-left: 20%;
     margin-right: 10%;
     margin-top: 1%;
     margin-bottom: 3%;
@@ -296,13 +294,15 @@ section {
   #button a {
     background-color: #8b7356;
     color: #fffdfd;
-    padding: 1em 2em;
+    padding: 10px 25px;
     text-decoration: none;
-    border-radius: 1em;
+    border-radius: 20px;
     border: none;
     outline: none;
-    font-size: 10px;
+    font-size: 16px;
     margin-top: 1%;
+    font-family: "Source Sans 3", sans-serif;
+    cursor: pointer;
   }
   section {
     margin-top: 2%;
