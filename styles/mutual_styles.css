@@ -13,8 +13,7 @@ img {
 
 @font-face {
   font-family: woodland;
-  src: url("../fonts/ppwoodland-bold-webfont.woff"),
-    url("../fonts/ppwoodland-bold-webfont.woff2");
+  src: url("../fonts/ppwoodland-bold-webfont.woff"), url("../fonts/ppwoodland-bold-webfont.woff2");
 }
 
 h1,
@@ -77,6 +76,7 @@ body {
   background: none;
   outline: none;
   border: none;
+  z-index: 100;
 }
 
 .hamburger .bar,
@@ -149,14 +149,12 @@ body {
 }
 
 header {
-  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99;
 
   .container {
-    /* padding-bottom: 32px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,6 +165,9 @@ header {
       text-decoration: none;
       color: black;
       font-size: 1.2rem;
+    }
+    .container a:hover {
+      color: #696868;
     }
   }
 }
