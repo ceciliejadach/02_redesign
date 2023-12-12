@@ -28,6 +28,14 @@ a {
   font-family: "Source Sans 3", sans-serif;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
 body {
   background-color: #f6f5f3;
 }
@@ -36,6 +44,14 @@ body {
   main {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  h1 {
+    font-size: 2.125rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
   }
 }
 
@@ -287,17 +303,6 @@ ul li a:hover {
   footer {
     bottom: unset;
   }
-
-  /* .col {
-    flex-basis: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
-  }
-
-  .col:nth-child(2),
-  .col:nth-child(3) {
-    flex-basis: 100%;
-  } */
 
   .row {
     grid-template-columns: repeat(4, 1fr);
