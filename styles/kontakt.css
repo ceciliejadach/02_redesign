@@ -27,6 +27,12 @@ form p {
   justify-self: center;
 }
 
+form h3 {
+  color: white;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
 label {
   color: white;
 }
