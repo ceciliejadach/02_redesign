@@ -74,6 +74,22 @@ hr {
   margin-bottom: 30px;
 }
 
+.contact ul li a {
+  text-decoration: none;
+  background-color: transparent;
+  color: blue;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.contact ul li a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: purple;
+  padding: 0;
+  text-decoration: underline;
+}
+
 @media (min-width: 800px) {
   .kategori_info {
     margin: 60px 0 0 0;
