@@ -214,7 +214,8 @@ p {
   .grid_col2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    margin-top: 80px;
     gap: 40px;
   }
 
