@@ -1,4 +1,5 @@
-.grid_col1 {
+.grid_col1,
+.grid_col2 {
   display: grid;
   gap: 10px;
   margin: 10px 10px 30px 10px;
@@ -12,8 +13,40 @@
   line-height: 1.5rem;
 }
 
+.grid_col_2 h1 {
+  font-size: 6rem;
+  background-image: url("../imgwebp/background_tree1.webp");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.grid_col_2_text {
+  padding-top: 30px;
+  line-height: 1.5rem;
+  max-width: 500px;
+}
+
+.grid_col_2_text a {
+  background-color: #8b7356;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+  width: fit-content;
+}
+
+.grid_col_2_text a:hover {
+  background-color: #5e503f;
+}
+
 @media (min-width: 800px) {
-  .grid_col1 {
+  .grid_col1,
+  .grid_col2 {
     grid-template-columns: repeat(2, 1fr);
     margin: 70px 0 100px 0;
   }
