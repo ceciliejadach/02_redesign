@@ -1,12 +1,7 @@
 /*video*/
 .video_2 {
   width: 100%;
-  display: block;
-  height: 100%;
   aspect-ratio: 1/1;
-  margin-left: 0px;
-  margin-right: 0px;
-  background-color: white;
 }
 
 .video_1 {
@@ -14,17 +9,14 @@
 }
 
 .video_container {
-  z-index: 0;
+  display: grid;
+  place-items: center;
 }
 
-.video_container h1 {
-  z-index: 10;
-  position: absolute;
-}
-
-.video_skrift h1 {
-  display: flex;
-  position: absolute;
+video,
+.video_txt {
+  grid-area: 1/1;
+  color: white;
 }
 
 /*FORSIDE KNAP*/
@@ -42,6 +34,12 @@
   color: white;
   text-decoration: none;
   font-family: "Source Sans 3", sans-serif;
+}
+
+.forsideknap:hover {
+  background-color: #554838;
+  color: #f6f5f3;
+  transition: 0.4s;
 }
 
 .kategori {
@@ -66,6 +64,8 @@
   max-width: 600px;
   margin-left: 20px;
   margin-right: 20px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .forsidetekst p {
@@ -96,31 +96,11 @@ p {
   padding-top: 20px;
 }
 
-.forside_hylde {
-  padding-right: 10px;
-  padding-bottom: 70px;
-}
-
-.forside_skabe {
-  padding-right: 10px;
-  padding-bottom: 70px;
-}
-
-.forside_toiletmoebel {
-  padding-right: 10px;
-  padding-bottom: 70px;
-}
-
-.forside_reoler {
-  padding-right: 10px;
-  padding-bottom: 70px;
-}
-
-.forside_baenke {
-  padding-right: 10px;
-  padding-bottom: 70px;
-}
-
+.forside_hylde,
+.forside_skabe,
+.forside_toiletmoebel,
+.forside_reoler,
+.forside_baenke,
 .forside_interior {
   padding-right: 10px;
   padding-bottom: 70px;
@@ -148,13 +128,47 @@ p {
   cursor: pointer;
 }
 
+.grid_col_2 h1 {
+  font-size: 4.5rem;
+  background-image: url("../imgwebp/background_tree1.webp");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 20px;
+}
+
+.grid_col_2_text {
+  padding-top: 30px;
+  line-height: 1.5rem;
+  max-width: 500px;
+  margin-left: 20px;
+}
+
+.grid_col_2_text a {
+  background-color: #8b7356;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.grid_col_2_text a:hover {
+  background-color: #5e503f;
+}
+
 /*DESKTOP*/
 @media (min-width: 768px) {
   .video_1 {
     width: 100%;
-    height: 75%;
-    margin-top: 40px;
     display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .video_2 {
@@ -194,5 +208,21 @@ p {
 
   .kategori {
     padding-top: 20px;
+  }
+
+  /*BÆREDYGTIGHED*/
+  .grid_col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 40px;
+  }
+
+  .grid_col_2 h1 {
+    font-size: 6rem;
+  }
+
+  .grid_col_2_text p {
+    text-align: left;
   }
 }
