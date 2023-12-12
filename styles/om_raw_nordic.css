@@ -27,9 +27,13 @@
 .behandling {
   padding: 20px;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 12px;
   margin-right: 12px;
+}
+
+.behandling h1 {
+  margin-top: 30px;
 }
 
 .behandling h2 {
@@ -51,7 +55,6 @@
 }
 
 .information h3 {
-  padding: 5px;
   margin: 8px;
 }
 
@@ -75,7 +78,6 @@
   }
 
   .information h3 {
-    padding: 5px;
     margin: 0px;
   }
 
@@ -84,8 +86,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    /* background: rgb(246, 245, 243);
-    background: linear-gradient(273deg, rgba(246, 245, 243, 1) 47%, rgba(224, 212, 193, 1) 82%); */
+
     border-radius: 150px;
     margin-bottom: 80px;
     margin-top: 80px;
@@ -99,8 +100,6 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    /* background: rgb(246, 245, 243);
-    background: linear-gradient(90deg, rgba(246, 245, 243, 1) 47%, rgba(224, 212, 193, 1) 83%); */
     border-radius: 150px;
   }
 

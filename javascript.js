@@ -11,3 +11,10 @@ function sidenVises() {
     mobile_menu.classList.toggle("is-active");
   });
 }
+
+document.querySelectorAll(".toggle-btn").forEach((btn) => {
+  btn.addEventListener("click", function () {
+    var produkt = this.parentElement;
+    produkt.classList.toggle("open");
+  });
+});

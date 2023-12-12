@@ -1,0 +1,29 @@
+.tak_container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  margin: 50px 10px;
+  text-align: center;
+  gap: 30px;
+}
+
+.tak_container a {
+  text-decoration: none;
+  background-color: #8b7356;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  justify-self: center;
+}
+
+.tak_container a:hover {
+  background-color: #5e503f;
+}
+
+@media (min-width: 800px) {
+  .tak_container {
+    margin: 100px 0px;
+  }
+}

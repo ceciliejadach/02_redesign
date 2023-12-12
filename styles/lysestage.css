@@ -1,0 +1,99 @@
+.kategori_info {
+  color: #5e503f;
+  text-decoration: none;
+  display: block;
+  margin: 40px 10px 30px 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  background-color: #8b7356;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  justify-self: center;
+  display: inline-block;
+  margin: 30px 0px;
+}
+
+.order {
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  text-transform: uppercase;
+}
+
+.grid_col1 {
+  display: grid;
+  margin: 0px 10px;
+  gap: 30px;
+}
+
+.grid_col1 a {
+  margin-left: 50px;
+}
+
+.produkt {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.ekstra-info {
+  display: none;
+  padding-top: 10px;
+}
+
+.produkt.open .ekstra-info {
+  display: block;
+}
+
+.produkt.open .toggle-btn::after {
+  content: "-";
+}
+
+.toggle-btn::after {
+  content: "+";
+}
+
+ul li {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 800px) {
+  .kategori_info {
+    margin: 60px 0 0 0;
+  }
+
+  .grid_col1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px 100px 0px;
+    gap: 30px;
+  }
+  .order {
+    order: -1;
+  }
+
+  .contact a:hover {
+    background-color: #5e503f;
+  }
+
+  .grid_col1 a {
+    margin-left: 0px;
+  }
+}

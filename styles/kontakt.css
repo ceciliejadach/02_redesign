@@ -22,8 +22,9 @@ form {
 }
 
 form p {
-  justify-self: center;
   color: white;
+  max-width: 600px;
+  justify-self: center;
 }
 
 label {
@@ -57,22 +58,28 @@ input {
 .send_btn {
   background-color: #8b7356;
   border: none;
-  color: white;
   padding: 8px 23px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   justify-self: center;
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.send_btn a {
+  text-decoration: none;
   font-family: "Source Sans 3", sans-serif;
+  color: white;
+}
+
+.send_btn a:hover {
+  color: #554838;
 }
 
 .send_btn:hover {
   background-color: #f6f5f3;
-  color: #554838;
   transition: 0.4s;
 }
 
