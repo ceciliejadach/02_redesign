@@ -66,6 +66,7 @@ video,
   margin-right: 20px;
   overflow-wrap: break-word;
   hyphens: auto;
+  font-size: 18px;
 }
 
 .forsidetekst p {
@@ -225,5 +226,8 @@ p {
 
   .grid_col_2_text p {
     text-align: left;
+    font-size: 18px;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
