@@ -244,6 +244,11 @@ section {
     margin-top: 12%;
   }
 
+  .aktiv a {
+    color: #696868;
+    padding: 8px;
+  }
+
   .navbar_nav {
     display: block;
   }
